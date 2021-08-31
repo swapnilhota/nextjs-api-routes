@@ -8,3 +8,6 @@ Project built to better understand the functioning of API routes in Next.js
 
 * "handler" function in api routes get triggered for every kind of request like POST, GET, DELETE etc.
   Therefore need to use if-else to check the kind of request.
+
+* "getStaticProps" function can be used in any page to pre-render data of that page in server side.
+  It runs in server-side and not visible in client side.

@@ -11,3 +11,5 @@ Project built to better understand the functioning of API routes in Next.js
 
 * "getStaticProps" function can be used in any page to pre-render data of that page in server side.
   It runs in server-side and not visible in client side.
+
+* Dynamic api can be defined in the same way as dynamic page route is defined i.e. using "[].js"

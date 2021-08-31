@@ -14,7 +14,7 @@ const FeedbackPage = (props) => {
 
 export const getStaticProps = async () => {
     //runs in server
-    //similar logic as in handler in _api
+    //similar logic as in handler in api
     const filePath = path.join(process.cwd(), 'data', 'feedback.json');
     const fileData = fs.readFileSync(filePath);
     const data = JSON.parse(fileData);
